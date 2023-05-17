@@ -12,6 +12,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <div className="App">
+        <p>Shopping Cart</p>
         <Globalstyles />
         {/* Navigation */}
       </div>

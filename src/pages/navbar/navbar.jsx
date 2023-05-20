@@ -7,7 +7,7 @@ const Navbar = () => {
     <NavbarSection>
       <div className='Logo'>
         <div className='Img'>Logo</div>
-        <div><p>G~SHop</p></div>
+        <div><p>G~Mall</p></div>
       </div>
       
       <div className='Links'>

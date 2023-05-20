@@ -184,6 +184,18 @@ export const ProductConatiner = styled.div`
     height: 230px;
     background: skyblue;
     overflow: hidden;
+    border-radius: 5px;
+    &:hover{
+     & > img{
+      transition: all 500ms;
+      transform: scale(1.1);
+     }
+    }
+    & img{
+     transition: all 500ms;
+     width: 100%;
+     height: 100%;
+    }
    }
 
    & > .Title{

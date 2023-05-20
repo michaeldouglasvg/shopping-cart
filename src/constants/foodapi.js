@@ -1,41 +1,60 @@
-import Images from "../images/oranges.jpg"
+import Oranges from "./images/oranges.jpg"
+import Bananas from "./images/bannas.jpg"
+import Chills from "./images/chills.jpg"
+import Hoho from "./images/hoho.jpg"
+import Maize from "./images/maize.jpg"
+import Pumkins from "./images/pumkins.jpeg"
+import Sandals from "./images/sandals.jpg"
+import Strawberry from "./images/strawberry.jpg"
 
 export const Food = [
  {
   id: 1,
-  title: "Oranges",
-  description: "Helps improve immune sistem by adding Vitamin C in the body cells. You can grab one",
-  image: Images,
- },
- {
-  id: 2,
-  title: "Tomatoes",
-  description: "Helps improve immune sistem by adding Vitamin C in the body cells. You can grab one",
-  image: Images,
+  image: Oranges,
+  title: "Oranges", 
+  prize: 10.23,
  },
  {
   id: 3,
-  title: "Oranges",
-  description: "Helps improve immune sistem by adding Vitamin C in the body cells. You can grab one",
-  image: Images,
+  image: Bananas,
+  title: "Bananas", 
+  prize: 30.35,
  },
  {
   id: 4,
-  title: "Oranges",
-  description: "Helps improve immune sistem by adding Vitamin C in the body cells. You can grab one",
-  image: Images,
+  image: Hoho,
+  title: "Pilipili Hoho", 
+  prize: 11.12,
  },
  {
   id: 5,
-  title: "Oranges",
-  description: "Helps improve immune sistem by adding Vitamin C in the body cells. You can grab one",
-  image: Images,
+  image: Chills,
+  title: "Chills Maze", 
+  prize: 10.20,
  },
  {
   id: 6,
-  title: "Oranges",
-  description: "Helps improve immune sistem by adding Vitamin C in the body cells. You can grab one",
-  image: Images,
+  image: Maize,
+  title: "Maize", 
+  prize: 9.33,
+ },
+ {
+  id: 7,
+  image: Pumkins,
+  title: "Pumpkins", 
+  prize: 14.29,
+ },
+ {
+  id: 8,
+  image: Sandals,
+  title: "Sandals/Sneakers", 
+  prize: 123.02,
+ },
+ {
+  id: 9,
+  image: Strawberry,
+  title: "Strawbery", 
+  prize: 15.39,
  },
 ]
 

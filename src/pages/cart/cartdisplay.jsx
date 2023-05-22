@@ -39,7 +39,7 @@ const Cartdisplay = () => {
           <p><b>${getCartTotalAmunt()}</b></p>
          </div>
          <div className='Paymethods'>
-          <h1>Chose payment Options</h1>
+          <h1>Choose payment Options</h1>
 
          </div>
          <button className='ShoppingBtn' onClick={() => {navigate("/shopping")}}>Continue shopping</button>

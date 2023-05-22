@@ -5,6 +5,7 @@ import Navbar from "./pages/navbar/navbar";
 import Signup from "./pages/home/signup";
 import Shopping from "./pages/home/shopping";
 import Cartdisplay from "./pages/cart/cartdisplay";
+import { ShopContextProvider } from "./context/shop-context";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
         <div className="App">
           <Globalstyles />
           {/* Navigation */}
+          <ShopContextProvider>
           <Navbar/>
           <Routes>
             <Route path="/" element={<Signup />} exact/>
@@ -26,6 +28,7 @@ function App() {
             <Route path="/shopping" element={<Shopping />}/>
             <Route path="/cart" element={<Cartdisplay />}/>
           </Routes>
+          </ShopContextProvider>
         </div>
       </ThemeProvider>
   );

@@ -32,6 +32,20 @@ export const CardProducts = styled.div`
   }
  }
 
+ & .ShoppingBtn{
+  border: none;
+  outline: none;
+  padding: .6rem 1rem;
+  background: skyblue;
+  color: white;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0,0,0,.2);
+  height: 40px;
+  width: 160px;
+ }
+
  & .Productssection{
   width: 100%;
   padding: .5rem .1rem;
@@ -54,9 +68,10 @@ export const CardProducts = styled.div`
    display: flex;
    align-items: center;
    background: white;
-   border-radius: 3px;
+   border-radius: 5px;
    margin: 1rem auto;
    flex-wrap: wrap;
+   box-shadow: 0 0 5px 3px rgba(0,0,0,.2);
 
    & .Image{
     width: 120px;
@@ -115,10 +130,13 @@ export const CardProducts = styled.div`
   & .Shoppingsummary{
    width: 96%;
    margin-top: 1rem;
+   
    & .Topsummary{
     width: 100%;
     padding: 1rem .2rem;
     background: white;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,.2);
+    border-radius: 3px;
 
     & h1{
      width: 100%;
@@ -139,6 +157,8 @@ export const CardProducts = styled.div`
     padding: 1rem .2rem;
     background: white;
     margin-top: 1rem;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,.2);
+    border-radius: 3px;
 
     & h1{
      width: 100%;

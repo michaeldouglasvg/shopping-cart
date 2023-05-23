@@ -24,11 +24,11 @@ const Signup = () => {
   // handle form data function
   // Signup method
   const onCreateUser = (data) => {
-    console.log(data)
+    console.log(data);
   };
   // Signin user
   const onSignInUser = (data) => {
-    console.log(data)
+    console.log(data);
   };
 
 

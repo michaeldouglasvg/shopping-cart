@@ -5,7 +5,6 @@ import Hoho from "./images/hoho.jpg"
 import Maize from "./images/maize.jpg"
 import Pumkins from "./images/pumkins.jpeg"
 import Sandals from "./images/sandals.jpg"
-import Strawberry from "./images/strawberry.jpg"
 
 export const Food = [
  {

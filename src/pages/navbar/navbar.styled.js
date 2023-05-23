@@ -14,7 +14,7 @@ export const NavbarSection = styled.div`
  z-index: 99;
  
  & .Logo{
-  padding: .2rem .2rem;
+  padding: .2rem 0rem;
   display: flex;
 
   & .Img{
@@ -31,14 +31,14 @@ export const NavbarSection = styled.div`
 
   & div{
    margin-left: .3rem;
-   @media (min-width: 426px){
+   @media (min-width: 769px){
     margin-left: 1rem;
    }
    & > p{
     font-size: 3rem;
     color: skyblue;
     display: none;
-    @media (min-width: 426px){
+    @media (min-width: 769px){
       display: block;
     }
    }
@@ -48,21 +48,21 @@ export const NavbarSection = styled.div`
  & .Links{
   display: flex;
   flex-direction: column;
-  @media (min-width: 426px){
+  @media (min-width: 769px){
     flex-direction: row;
   }
   & div{
    height: 25px;
    display: grid;
    place-items: center;
-   @media (min-width: 426px){
+   @media (min-width: 769px){
     margin-left: 1rem;
    }
 
    & .Link{
     text-decoration: none;
     font-size: 1rem;
-    @media (min-width: 426px){
+    @media (min-width: 769px){
      font-size: 1.5rem;
     }
    } 
@@ -72,12 +72,12 @@ export const NavbarSection = styled.div`
  & .Buttons{
   display: flex;
   flex-direction: column;
-  @media (min-width: 426px){
+  @media (min-width: 769px){
     flex-direction: row;
   }
   & div{
    width: 80px;
-   @media (min-width: 426px){
+   @media (min-width: 769px){
      padding: .4rem 1rem;
      background: skyblue;
      border-radius: 3px;
@@ -92,7 +92,7 @@ export const NavbarSection = styled.div`
    & .Link{
     text-decoration: none;
     font-size: 1rem;
-    @media (min-width: 426px){
+    @media (min-width: 769px){
      font-size: 1.5rem;
      text-align: center;
      color: white;

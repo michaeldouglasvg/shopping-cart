@@ -8,8 +8,6 @@ import { useNavigate } from 'react-router-dom';
 
 const Cartdisplay = () => {
   const { cartDefault, getCartTotalAmunt } = useContext(ShopContext);
-  
-  const amountToFixed = getCartTotalAmunt();
 
   const navigate = useNavigate();
 
@@ -31,7 +29,7 @@ const Cartdisplay = () => {
         </div>
 
         {/* Right section */}
-        {amountToFixed != 0 ? (
+        {getCartTotalAmunt() != 0 ? (
         <div className='Shoppingsummary'>
          <div className='Topsummary'>
           <h1>Shopping Details</h1>

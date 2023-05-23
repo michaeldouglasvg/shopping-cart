@@ -15,6 +15,8 @@ export const SignupCard = styled.div`
  display: grid;
  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
  grid-gap: 1rem;
+ box-shadow: 0 0 5px 2px rgba(0, 0, 0, .2);
+ border-radius: 3px;
  @media (min-width: 426px){
   width: 70%;
   padding: 1rem 1rem;
@@ -50,9 +52,21 @@ export const SignupCard = styled.div`
     flex-direction: column;
     margin-top: 1rem;
 
+    & .Error{
+     border: none;
+     color: orangered;
+     padding: .3rem .2rem;
+     margin-top: -.2rem;
+     margin-bottom: -.6rem;
+     font-style: initial;
+     font-size: .8rem;
+     font-weight: 600;
+     padding-left: .2rem;
+    }
+
     & > span{
      font-size: 1.2rem;
-     padding-bottom: .4rem;
+     padding-bottom: .6rem;
      color: grey;
     }
 
@@ -68,6 +82,7 @@ export const SignupCard = styled.div`
      background: black;
      cursor: pointer;
      transition: all 500ms;
+     margin-top: 1rem;
      &:hover{
       transform: scale(.99);
      }

@@ -50,11 +50,5 @@ export const Food = [
   title: "Sandals/Sneakers", 
   prize: 123.02,
  },
- {
-  id: 9,
-  image: Strawberry,
-  title: "Strawbery", 
-  prize: 15.39,
- },
 ]
 

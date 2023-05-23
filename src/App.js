@@ -6,6 +6,8 @@ import Signup from "./pages/home/signup";
 import Shopping from "./pages/home/shopping";
 import Cartdisplay from "./pages/cart/cartdisplay";
 import { ShopContextProvider } from "./context/shop-context";
+import AboutUs from "./pages/about/about-us";
+import { SignupInContextProvider } from "./context/firebaseauth";
 
 function App() {
 
@@ -21,13 +23,16 @@ function App() {
           <Globalstyles />
           {/* Navigation */}
           <ShopContextProvider>
-          <Navbar/>
-          <Routes>
-            <Route path="/" element={<Signup />} exact/>
-            <Route path="/Login" element={<Signup />}/>
-            <Route path="/shopping" element={<Shopping />}/>
-            <Route path="/cart" element={<Cartdisplay />}/>
-          </Routes>
+            <SignupInContextProvider>
+              <Navbar/>
+              <Routes>
+                <Route path="/" element={<Signup />} exact/>
+                <Route path="/Login" element={<Signup />}/>
+                <Route path="/shopping" element={<Shopping />}/>
+                <Route path="/cart" element={<Cartdisplay />}/>
+                <Route path="/about" element={<AboutUs />}/>
+              </Routes>
+            </SignupInContextProvider>
           </ShopContextProvider>
         </div>
       </ThemeProvider>

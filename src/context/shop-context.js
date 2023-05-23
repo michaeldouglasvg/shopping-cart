@@ -1,6 +1,3 @@
-// import { auth } from "../firebaseconfig/firebase"
-// import { signInWithPopup, GoogleAuthProvider } from "firebase/auth"
-// import { useAuthState } from "react-firebase-hooks"
 import React, { useState } from "react";
 import { Food } from "../constants/foodapi"
 import { createContext } from "react"

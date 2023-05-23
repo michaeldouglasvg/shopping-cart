@@ -25,11 +25,13 @@ const Cartdisplay = () => {
             return <CartProduct data={product} />;
 
           }
+
+          return null;
         })}
         </div>
 
         {/* Right section */}
-        {getCartTotalAmunt() != 0 ? (
+        {getCartTotalAmunt() !== 0 ? (
         <div className='Shoppingsummary'>
          <div className='Topsummary'>
           <h1>Shopping Details</h1>
